@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bgg.jpg);
+
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#nav{
+    color: white;
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+#contactus{
+    color: white;
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+#greetings{
+    color: white;
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#centre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#offer{
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+
+#register{
+    color: red;
+    text-align: center;
+    border: 10px red solid;
+    border-style: dashed;
+    height: 600px;
+    background-color: azure;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#HH{
+    color: rgb(255, 255, 255);
+    text-align: center;;
+    background-color: black;
+    margin: 40px 350px 20px 350px ;
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 40px;
+
+}
+#menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.item-style{
+    background-color: cyan;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 40px;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px 30px ;
+    color: blue;
+    line-height: 130%;
+
+}
+.bv{
+    background-color: cyan;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 40px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px 30px ;
+    color: blue;
+    line-height: 150%;
+}
+
+#offer{
+    border: 10px solid violet;
+    border-radius: 600px;
+    background-color: rgb(51, 119, 96);
+    color: black;
+    height: 300px;
+    width: 400px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#a{
+    font-size: large;
+    word-spacing: 60px;
+}
