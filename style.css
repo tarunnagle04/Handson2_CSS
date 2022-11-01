@@ -8,7 +8,7 @@ body{
 }
 
 #head{
-    display: flex;
+  display: flex;
     justify-content: center;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -22,6 +22,7 @@ body{
     border-radius: 20px;
     padding: 15px;
     margin-top: 20px;
+    position: absolute;
 }
 #contactus{
     color: white;
@@ -38,7 +39,7 @@ body{
     border-radius: 20px;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 #centre{
